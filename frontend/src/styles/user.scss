@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+$veryperi: #6667ab;
+$background-color: white;
+$box-color: #d7d7fa;
+$hover-color:#d7d7fa71;
+$font-size-large: 20px;
+$font-size-medium: 15px;
+$font-size-small: 10px;
+$shadow-color: rgba(0, 0, 0, 0.322);
+
+
+.signup-profile-image {
+  text-align: center;
+  > img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+  }
+}
+
+
+
+
+
+.default-profile-img {
+  text-align: center;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 10px;
+}
+
+.no-pagination {
+  display: none;
+}
+
+ /* pagination*/
+// .css-wjh20t-MuiPagination-ul {
+//   justify-content: center;
+// }
+
+/* 회원정보 수정 */
+.update-menu {
+  display: flex;
+}
+
+.update-menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-selected {
+  color: $veryperi;
+  border-bottom: 2px $veryperi solid;
+}
+
+#delete-btn {
+  color: rgb(219, 219, 219);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  // padding-top: 10px;
+  // margin-top: 2%;
+}
+
+.login, .signup {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+  /* 입력 폼 정렬 */
+.login-form, .signup-form, .user-edit-form {
+  display: flex;
+  min-width: 550px;
+  height: 80%;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: $background-color;
+  box-shadow: 2px 2px 5px 0px $shadow-color;
+  border-radius: 10px;
+  // margin-top: 2%;
+}
+
+.update-profile-form {
+  width: 285px;
+}
+
+/* 로그인 폼 정렬 */
+.input-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 250px;
+}
+
+// 회원가입 폼
+// .css-1nrlq1o-MuiFormControl-root {
+//   width: 315px;
+// }
+
+// 회원가입 경고문
+.css-1wc848c-MuiFormHelperText-root.Mui-error {
+  font-size: 13px;
+  letter-spacing: -.5px;
+  color: #ff003e;
+  vertical-align: middle;
+}
+
+
+.social-login-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  > a {
+    margin: 0px 5px;
+    
+  }
+  > a > img {
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px 0px $shadow-color;
+  }
+  > a > img:hover {
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px 0px $shadow-color;
+  }
+}
+
+.social-login-button {
+  width: 200px;
+  height: 50px;
+}
+
+
+.login_or {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 250px;
+  height: 1px;
+  background-color: $veryperi;
+}
+
+.login_text {
+  position: relative;
+  bottom: 10px;
+  color: $veryperi;
+  background-color: white;
+  padding: 10px;
+}
+
+.signup-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-left {
+  display: flex;
+  justify-content: center;
+}
+
+/* 이메일 인증 메시지 */
+.email-auth {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.email-auth-button {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.email-auth-notice {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+
+
+  .mypage-top {
+    flex-direction: column;
+    align-items: center;
+    // width: 300%;
+  }
+
+  .mypage-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+    // width: 50%;
+  }
+
+  .mypage-right {
+    margin: 17px;
+    min-width: 400px;
+    min-height: 350px;
+    // width: 85%;
+  }
+
+  .social-login-form {
+    flex-direction: column;
+  }
+
+  .social-login-button {
+    margin: 1px 0px;
+  }
+
+  .email-auth-notice {
+    flex-direction: column;
+  }
+
+  .css-1pxa9xg-MuiAlert-message {
+    font-size: 13px;
+  }
+  
+}
