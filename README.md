@@ -89,10 +89,12 @@
 - 홈페이지와 동일한 로그인 기능
 
 <hr />
+
 ![func6](https://user-images.githubusercontent.com/57943574/190897193-fd414539-dab7-4547-97b2-8684e44e6676.JPG)
 
 - 롤 클라이언트가 켜져있어야만 인증이 가능하다
 
 <hr />
+
 ![func7](https://user-images.githubusercontent.com/57943574/190897205-bbb3fad0-ed9e-4ff1-936e-709a269f09fc.JPG)
 
