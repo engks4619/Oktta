@@ -51,43 +51,48 @@
 <br/><br/>
 
 ## 💻 배포 구조
-![image](/uploads/23ba5d50fc7b3a01454e5704bd8fa917/image.png)
+![deploy](https://user-images.githubusercontent.com/57943574/190897108-336d705d-1e28-486b-99fa-d86e7066808f.png)
 
 <br/><br/>
 
 
 ## 💡 주요 기능
 ### 화면 공유가 가능한 토론 환경
-![화면공유방](/uploads/3fa71202b8d53c29381f4b75ffefe55d/화면공유방.png)
+<img width="1436" alt="func1" src="https://user-images.githubusercontent.com/57943574/190897131-9242ea85-2093-48cd-9a2e-1adf10481341.png">
+
 
 - WebRTC 기능을 이용해 실시간으로 화면을 공유.
 - 실시간 채팅 혹은 마이크로 소통 
 
 <hr />
-![화면공유방_투표](/uploads/1d0163fc6055d6a1656a668b742a0716/화면공유방_투표.png)
+<img width="1440" alt="func2" src="https://user-images.githubusercontent.com/57943574/190897142-d2384a05-aa80-4ef7-adf1-44f0654f28e3.png">
+
  
 - 화면 공유 내용을 보고 실시간으로 투표 가능
 
 ### 과실 비율 투표 기능
-![투표결과기능](/uploads/d2b4e9f26cf6d4132173a5ebae41958d/투표결과기능.JPG)
+![func3](https://user-images.githubusercontent.com/57943574/190897159-e8f1e9bb-3cb4-4320-ba8f-dcacdbad20da.JPG)
+
 
 - 투표시간이 마감되거나, 종료되면 투표결과 조회 가능
 - 마감 전에는 언제든지 수정 혹은 취소할 수 있다.
 
 ### 토론 내용 다시보기 기능
-![녹화된_영상](/uploads/6e16da0fcc70cd7227927ee3a6ad593a/녹화된_영상.JPG)
+![func4](https://user-images.githubusercontent.com/57943574/190897178-423a4f33-a287-43cd-8827-e5bb2e4737fc.JPG)
+
 
 - 녹화된 영상은 MP4 파일로 저장 
 
 ### 롤 티어 인증
-![티어인증프로그램](/uploads/ee358cc11f2fb19bab0c73c361b5e2b9/티어인증프로그램.JPG)
+![func5](https://user-images.githubusercontent.com/57943574/190897190-f71ea9cf-7d28-4483-87eb-29d326eda8e5.JPG)
 
 - 홈페이지와 동일한 로그인 기능
 
 <hr />
-![티어인증](/uploads/736a8190e3e98eca657071ce1452e296/티어인증.JPG)
+![func6](https://user-images.githubusercontent.com/57943574/190897193-fd414539-dab7-4547-97b2-8684e44e6676.JPG)
 
 - 롤 클라이언트가 켜져있어야만 인증이 가능하다
 
 <hr />
-![티어인증결과](/uploads/1cd590091636ecc62378771ff97cd157/티어인증결과.JPG)
+![func7](https://user-images.githubusercontent.com/57943574/190897205-bbb3fad0-ed9e-4ff1-936e-709a269f09fc.JPG)
+
