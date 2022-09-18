@@ -202,7 +202,8 @@
 
 ## ERD
 
-![ERD](/uploads/c1048986e6799d1f2944abde8c222566/ERD.jpg)
+![erd](https://user-images.githubusercontent.com/57943574/190897297-2d25581b-e082-4489-ad7f-8f3d5da1409e.jpg)
+
 
 
 ## API Docs
